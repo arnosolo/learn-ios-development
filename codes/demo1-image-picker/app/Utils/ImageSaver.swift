@@ -7,6 +7,8 @@
 
 import Photos
 
+// Note: In order to save image to photo library, NSPhotoLibraryAddUsageDescription
+// must be added to Info.plist first
 struct ImageSaver {
     enum SaverError: Error {
         case unknown
