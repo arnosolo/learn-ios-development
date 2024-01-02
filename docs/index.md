@@ -16,9 +16,13 @@ hero:
 
 features:
   - icon: 🏞️
-    title: Pick an image
-    details: Read and write photo library.
-    link: /article-1-read-and-write-photo-library
+    title: Images
+    details: Handle Images
+    link: ./list-1-images
+  - icon: 💬
+    title: User input
+    details: Handle user input
+    link: ./list-2-user-input
   # - icon:
   #     src: /logo.svg
   #   title: Record audio
