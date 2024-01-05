@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+/*
+ * Every time text field changes, a new delay task will be created which will
+ * call onChange func after 250ms.
+ * But if text field changes again within this 250ms, then previous delay task
+ * will be cancelled. So only the last input will be emitted.
+ */
 struct TextFieldWithDebounce: View {
     let title: LocalizedStringKey
     let text : String

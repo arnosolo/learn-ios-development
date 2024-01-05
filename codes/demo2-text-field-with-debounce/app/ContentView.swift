@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var userInput: String = "123"
     
+    // #region snippet
     var body: some View {
         VStack {
             TextFieldWithDebounce(
@@ -22,14 +23,10 @@ struct ContentView: View {
                 .font(.system(size: 14))
                 .padding(.leading, 4)
             
-            TextFieldWithDebounce(
-                title: "Input#2",
-                text: userInput,
-                onChange: { userInput = $0 }
-            )
             Text("userInput = \(userInput)")
         }
     }
+    // #endregion snippet
 }
 
 #Preview {

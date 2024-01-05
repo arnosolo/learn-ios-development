@@ -20,3 +20,4 @@ Deployed by `Github Action` on `main` branch change
 #### Docs
 
 - [vitepress](https://vitepress.dev/guide/getting-started)
+  - [Show codes from other files](https://vitepress.dev/guide/markdown#import-code-snippets)
