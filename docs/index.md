@@ -23,6 +23,10 @@ features:
     title: User input
     details: Handle user input
     link: ./list-2-user-input
+  - icon: 🏗️
+    title: Build
+    details: Build Apps
+    link: ./list-3-build-apps
   # - icon:
   #     src: /logo.svg
   #   title: Record audio
