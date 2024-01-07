@@ -50,7 +50,7 @@ You can find the setup workflow button as following picture showed. You can also
 
 ### Increase version
 
-We will use a js script to automatically increase version. Since `Xcode Cloud` will run `ci_scripts/ci_post_clone.sh` script build, we should place our custom script there.
+We will use a js script to automatically increase version. Since `Xcode Cloud` will run `ci_scripts/ci_post_clone.sh` script before building, we should place our custom script there.
 > You can find more about Xcode Cloud custom build scripts here -> [Writing custom build scripts | Apple](https://developer.apple.com/documentation/xcode/writing-custom-build-scripts)
 
 ::: code-group
@@ -60,7 +60,7 @@ We will use a js script to automatically increase version. Since `Xcode Cloud` w
 
 ### App Icon
 
-You App Icon can not have alpha channel 
+You App Icon can not have alpha channel, otherwise `Xcode Cloud` will failed to build.
 ![picture 3](assets/273f77a14bf0fb8df431d5e6d77a4bc25bd04ce446f7625738d2e317c7f28b67.png)
 
 ### (Optional) Other notes
