@@ -15,6 +15,10 @@ hero:
     #   link: /api-examples
 
 features:
+  - icon: 📝
+    title: Data flow
+    details: How data flow in a SwiftUI App
+    link: ./list-4-data-flow
   - icon: 🏞️
     title: Images
     details: Handle Images
