@@ -8,4 +8,5 @@ description: How data flow in a SwiftUI App.
 
 {{ $frontmatter.description }}
 
-- [Give state variable an initial value](./article-4-give-state-variable-initial-value)
+- [Declare a state variable in a SwiftUI app](./article-4-declare-a-state-variable-in-a-swiftui-app)
+- [Global state in a SwiftUI app](./article-5-golbal-state-in-a-swiftui-app)

@@ -1,5 +1,5 @@
 ---
-title: Give state variable an initial value
+title: Declare a state variable in a SwiftUI app
 lang: en-US
 description: Usually variables are initialized at the time of declaration, but variables can also be initialized in the init function.
 ---
