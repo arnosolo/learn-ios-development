@@ -15,34 +15,14 @@ hero:
     #   link: /api-examples
 
 features:
-  - icon: 📝
-    title: Data flow
-    details: How data flow in a SwiftUI App
-    link: ./list-4-data-flow
-  - icon: 🏞️
-    title: Images
-    details: Handle Images
-    link: ./list-1-images
-  - icon: 💬
-    title: User input
-    details: Handle user input
-    link: ./list-2-user-input
-  - icon: 🏗️
-    title: Build
-    details: Build Apps
-    link: ./list-3-build-apps
-  # - icon:
-  #     src: /logo.svg
-  #   title: Record audio
-  #   details: Record voices then transcribe to text.
-  #   link: /markdown-examples
+  - icon: 🗺️
+    title: Roadmap
+    details: Learn to write iOS apps
+    link: ./list-0-ios-developer-roadmap
   # - title: Swift Syntax
   #   icon:
   #     dark: /logo-dark.svg
   #     light: /logo.svg
-  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #   link: /markdown-examples
-  # - title: Async Await
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   #   link: /markdown-examples
 ---
