@@ -12,7 +12,6 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       // { text: 'Examples', link: '/examples' }
     ],
-
     // sidebar: [
     //   {
     //     text: 'Examples',
@@ -21,9 +20,21 @@ export default defineConfig({
     //     ]
     //   }
     // ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/arnosolo/learn-ios-development' }
-    ]
-  }
+    ],
+  },
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en',
+      title: "Big Yellow iOS Development",
+    },
+    'zh-CN': {
+      label: '简体中文',
+      lang: 'zh-CN',
+      link: '/zh-CN/',
+      title: '大黄 iOS 开发',
+    }
+  },
 })

@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "iOS Dev"
-  text: "Articles about iOS development"
+  name: "大黄 iOS 开发"
+  text: "一些关于 iOS 的文章"
   # tagline: My great project tagline
   # actions:
   #   - theme: brand
@@ -25,7 +25,7 @@ features:
   #   icon: 🗺️
   #   details: Learn to write iOS apps
   #   link: ./list-0-ios-developer-roadmap
-  - title: Build and Deploy
+  - title: 构建与部署
     icon: 🏗️
     details: 
     link: ./list-3-build-and-deploy-an-ios-app
