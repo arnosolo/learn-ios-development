@@ -61,7 +61,6 @@ We will use a js script to automatically increase version. Since `Xcode Cloud` w
 ### App Icon
 
 You App Icon can not have alpha channel, otherwise `Xcode Cloud` will failed to build.
-![picture 3](assets/273f77a14bf0fb8df431d5e6d77a4bc25bd04ce446f7625738d2e317c7f28b67.png)
 
 ### (Optional) Other notes
 
