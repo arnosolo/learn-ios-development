@@ -10,7 +10,7 @@ export default defineConfig({
     logo: '/big-yellow.svg',
     nav: [
       { text: 'Home', link: '/' },
-      // { text: 'Examples', link: '/examples' }
+      { text: 'About', link: 'https://arnosolo.github.io/blog/' },
     ],
     // sidebar: [
     //   {
@@ -21,7 +21,7 @@ export default defineConfig({
     //   }
     // ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/arnosolo/learn-ios-development' }
+      { icon: 'github', link: 'https://github.com/arnosolo' },
     ],
   },
   locales: {
