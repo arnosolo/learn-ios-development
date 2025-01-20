@@ -25,8 +25,10 @@ features:
   #   icon: 🗺️
   #   details: Learn to write iOS apps
   #   link: ./list-0-ios-developer-roadmap
-  - title: Build and Deploy
-    icon: 🏗️
-    details: 
-    link: ./list-3-build-and-deploy-an-ios-app
+  # - title: Build and Deploy
+  #   icon: 🏗️
+  #   details: 
+  #   link: ./list-3-build-and-deploy-an-ios-app
 ---
+
+All articles have been migrated to https://arnosolo.github.io/blog/4-ios-dev-articles.html
